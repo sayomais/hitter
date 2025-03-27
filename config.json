@@ -1,0 +1,15 @@
+{
+    "stripe_secret_key": "YOUR_STRIPE_SECRET_KEY",
+    "amount": 1000,
+    "interval": 1,
+    "max_transactions": 1000,
+    "test_cards": [
+        "4242424242424242",
+        "4000000000000002",
+        "4000000000009995",
+        "4000000000000069"
+    ],
+    "log_file": "transactions.log",
+    "auto_restart": true,
+    "restart_delay": 60
+} 
